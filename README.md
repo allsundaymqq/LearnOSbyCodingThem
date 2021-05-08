@@ -6,7 +6,7 @@ Operating System, In my acknowage, is to get binaries to RAM and then tell CPU t
 so,I will document everything I learned from this series, this may not have profits for Others
 
 ## Tables of Contents
- -[Day1 Boot process and C++ stack Setup](#day1)
+ - [Day1 Boot process and C++ stack Setup](#day1)
  
  
  
