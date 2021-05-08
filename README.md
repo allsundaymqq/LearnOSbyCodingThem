@@ -12,7 +12,7 @@ so,I will document everything I learned from this series, this may not have prof
  
  <a name="day1"></a>
 ### Day1 Boot process and C++ stack Setup
-1.Press the power button, then send singal to Mainboard, the BIOS inside of MB will do a POST( Power-On Self-Test), then do sth like check some Hardwares...  But BIOS is actually a ERPROM, have many firmwares(some binary codes for booting a OS).
+1.Press the power button, then send singal to Mainboard, the BIOS inside of MB will do a POST( Power-On Self-Test), then do sth like check some Hardwares...  But BIOS is actually a ERPROM, have many firmwares(some binary codes for booting a OS).  
 2.All we need to do, is to write OS code to BootLoader, it will load our code as an OS executed by CPU.      
   
 Before we do that, C++ compiler output is not flat binaries, we have to write ASM code in the front of the OS code, so,  
